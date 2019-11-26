@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "Fluent", targets: ["Fluent"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/fluent-kit.git", from: "1.0.0-beta"),
+        .package(url: "https://github.com/vapor/fluent-kit.git", .branch("master")),
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0-beta"),
     ],
     targets: [
